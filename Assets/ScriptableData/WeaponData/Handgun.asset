@@ -1,0 +1,25 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 01b49e90487c0b441bf7a6aa9fe7857f, type: 3}
+  m_Name: Handgun
+  m_EditorClassIdentifier: 
+  weaponName: Pistol
+  damage: 10
+  range: 100
+  fireRate: 0.8
+  recoilKickBack: 0.4
+  overrideController: {fileID: 22100000, guid: 9f7c8687b20b2364d860f06841c86bfe, type: 2}
+  unlockPrice: 0
+  isUnlocked: 1
+  maxAmmoInClip: 10
+  totalAmmo: 10
+  currentAmmoInClip: 10

@@ -10,9 +10,8 @@
 
         public void UpdateState()
         {
-            if (gun.currentStats.currentAmmoInClip <= 0)
+            if (gun.ammoManager.IsClipEmpty())
             {
-                Debug.Log("🚨 Mermi bitti! Reload yapılıyor...");
                 gun.SwitchState(new ReloadingState());
                 return;
             }
@@ -33,6 +32,5 @@
 
         public void ExitState()
         {
-            Debug.Log("🔴 Ateş durdu.");
         }
     }

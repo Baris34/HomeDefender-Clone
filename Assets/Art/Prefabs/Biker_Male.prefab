@@ -8393,6 +8393,8 @@ MonoBehaviour:
   burnEffect: {fileID: 4298070594252134765}
   burnDamagePerSecond: 5
   spawner: {fileID: 0}
+  playerData: {fileID: 11400000, guid: ba4372dba4d39114d8b157218e1322a5, type: 2}
+  coinValueOnDeath: 1
 --- !u!65 &2925036428170741874
 BoxCollider:
   m_ObjectHideFlags: 0
